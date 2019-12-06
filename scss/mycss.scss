@@ -1,0 +1,22 @@
+.lead-bold  {
+    
+    font-weight: bold;
+    font-size:36px;
+    text-decoration: underline;
+  }
+  .custom-img
+  {
+      background-image: url("../img/handmade/Conan3.jpg");
+      background-size:auto;
+  }
+  .a {
+
+    background: url("../img/handmade/Conan_index.jpg");/*預設顯示圖片*/
+    display: block;
+    font-size: 0; 
+    //height: 30px;/*圖片高度*/
+    //width: 107px;/*圖片寬度*/
+}
+a:hover {
+    background: url("../img/handmade/Conan.jpg"); /*滑鼠移過顯示圖片*/
+}
